@@ -11,6 +11,12 @@ import StackingCard from "@/components/StackingCard";
 import FAQs from "@/components/FAQs";
 import InfiniteBrand from "@/components/InfiniteBrand";
 
+//Daisy-ui
+import { Login } from "@/components/Login";
+import { Carousel } from "@/components/Carousel";
+import Code from "@/components/Code";
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
   const world = "This is text effect Animation!"
   const images = [
@@ -24,11 +30,15 @@ export default function Home() {
   return (
    <>
        <Header /> 
+       <Navbar />
+       <Login />
+       <Carousel />
        <RandomizedTextEffect text={world} /> 
       <Index /> 
       <DragItms />
       <InfiniteBrand />
       <StackingCard />
+      <Code />
       <Button />
       <ProgressiveCarousel items={images} />
       <FAQs />
