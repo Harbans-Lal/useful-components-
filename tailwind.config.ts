@@ -26,6 +26,11 @@ const config: Config = {
     },
   },
   plugins: [daisyui],
+    // daisyUI config (optional - here are the default values)
+    daisyui: {
+      themes: ["light", "dark", "cupcake","winter","night"],
+    },
+
 };
 
 export default config;

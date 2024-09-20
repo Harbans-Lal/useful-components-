@@ -16,7 +16,7 @@ import { Login } from "@/components/Login";
 import { Carousel } from "@/components/Carousel";
 import Code from "@/components/Code";
 import Navbar from "@/components/Navbar";
-
+import Phone from "@/components/Phone";
 export default function Home() {
   const world = "This is text effect Animation!"
   const images = [
@@ -40,6 +40,7 @@ export default function Home() {
       <StackingCard />
       <Code />
       <Button />
+      <Phone />
       <ProgressiveCarousel items={images} />
       <FAQs />
       <Footer />
